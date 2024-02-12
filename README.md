@@ -45,6 +45,9 @@ I am interested in:
     - This was an attempt to understand the process of code going from a bunch of text, to an actual executable
     - While the actual assembly generated is not great, it tokenizes, parses into an AST, and can interpret any code that fits the specification
     - Genuinely one of the hardest things I've attempted to make. The next attempt will be much better, because I *will* get it right
+- [Encryption](https://github.com/LordGoatius/jimcrypt)
+    - This is a small attempt to create an encryption algorithm
+    - Eventually, I intend to use it to create a public-key encryption transfer protocol using Rust's TCP capabilities
 - [FantASCII](https://august-jhn.github.io/fantAscII/)
     - Originally a school project, it grew to be one of my favorite results from a project, with a useful tool I've used myself several times
     - The code itself is clearly a prototype, and I also intend to revisit this another time, rebuilding from scratch
