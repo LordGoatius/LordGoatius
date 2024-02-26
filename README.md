@@ -49,6 +49,8 @@ I am interested in:
     - This is a small attempt to create an encryption algorithm
     - Eventually, I intend to use it to create a public-key encryption transfer protocol using Rust's TCP capabilities
     - I personally believe this is a great example of a small project with a high code quality
+- [Turing Machine](https://github.com/LordGoatius/turing_machine)
+    - An implementation of a turing machine in Rust
 - [FantASCII](https://august-jhn.github.io/fantAscII/)
     - Originally a school project, it grew to be one of my favorite results from a project, with a useful tool I've used myself several times
     - The code itself is clearly a prototype, and I also intend to revisit this another time, rebuilding from scratch
