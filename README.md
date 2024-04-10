@@ -1,10 +1,11 @@
 ﻿# About
-Hi! I'm a CS student currently studying at Willamette University. \
+Hi! I'm a CS and Math student currently studying at Willamette University. \
 I am interested in many things, including:
 - Open-Source Software
 - Operating Systems
 - Bots (that play games)
-- Compilers, Interpreters, and Languages
+- Compilers, Interpreters, and Language Design
+- Formal Methods
 
 # Skills
 I have worked professionally with:
