@@ -45,6 +45,11 @@ I am interested in:
     - This was an attempt to understand the process of code going from a bunch of text, to an actual executable
     - While the actual assembly generated is not great, it tokenizes, parses into an AST, and can interpret any code that fits the specification
     - Genuinely one of the hardest things I've attempted to make. The next attempt will be much better, because I *will* get it right
+- [LaTeX Interpreter](https://github.com/LordGoatius/jimtex)
+    - A turing-complete programming language with syntax inspired by LaTeX.
+    - A kind of sequel to my compiler, this is a fully interpreted language, intended to be embedded into the JimTeX IDE.
+    - *Nearly* fully functional (functions can be passed as functions to functions, but not returned, mutability is handled with reassignment)
+    - Examples are in the jimtex_interpreter library as tests, run with `$ cargo test -- --nocapture` to view console output.
 - [Encryption](https://github.com/LordGoatius/jimcrypt)
     - This is a small attempt to create an encryption algorithm
     - Eventually, I intend to use it to create a public-key encryption transfer protocol using Rust's TCP capabilities
