@@ -41,6 +41,15 @@ I am interested in:
 
 # My Favorite Projects
 
+- [Ternary Virtual Machine (jt1701)](https://github.com/LordGoatius/JIMNIAC)
+    - A virtual machine which operates on a virtual machine code made up of ternary Trits, utilizing balanced ternary as the intrinsic system of ternary.
+    - Main branch contains a Harvard architecture stack-based simple virtual machine (a proof of concept), and a simple 2-pass assembler.
+    - v2 branch contains work on a von Neumann architecture virtual machine, and:
+        - Access to a 27 (3^3) register page
+        - 3^27 Trytes (9 trits) identity mapped memory
+        - Custom Arm-inspired RISC assembly instruction set assembler (datasheet in progress)
+        - TODO: 3C (C, for ternary word sizes) compiler targeting jt1701 assembly
+        - TODO: Simple operating system written in 3C and jt1701 assembly
 - [Compiler](https://github.com/LordGoatius/jim_compiler)
     - This was an attempt to understand the process of code going from a bunch of text, to an actual executable
     - While the actual assembly generated is not great, it tokenizes, parses into an AST, and can interpret any code that fits the specification
