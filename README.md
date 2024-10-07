@@ -60,16 +60,17 @@ I am interested in:
     - *Nearly* fully functional (functions can be passed as functions to functions, but not returned, mutability is handled with reassignment)
     - Examples are in the jimtex_interpreter library as tests, run with `$ cargo test -- --nocapture` to view console output.
 - [Encryption](https://github.com/LordGoatius/jimcrypt)
-    - This is a small attempt to create an encryption algorithm
-    - Eventually, I intend to use it to create a public-key encryption transfer protocol using Rust's TCP capabilities
-    - I personally believe this is a great example of a small project with a high code quality
+    - Contains 2 parts:
+        - src, which contains a custom polynomial xor based masking algorithm
+        - primes_lib/src, which contains an implementation of the RSA algorithm in Rust
 - [Turing Machine](https://github.com/LordGoatius/turing_machine)
     - An implementation of a turing machine in Rust
+    - Allows for saving states of the tape, as well as programatically constructing them
 - [FantASCII](https://august-jhn.github.io/fantAscII/)
     - Originally a school project, it grew to be one of my favorite results from a project, with a useful tool I've used myself several times
-    - The code itself is clearly a prototype, and I also intend to revisit this another time, rebuilding from scratch
 - [Star Trek Episode Picker](https://github.com/LordGoatius/star_trek_picker)
-    - Recreation of my very first CS project. I compiled it to WASM, and it's available [here](https://lordgoatius.github.io/star_trek_picker/)
+    - Recreation of my very first CS project. Originally written in Java, I used Rust this time, acnd compiled it to WASM. 
+    - It's available [here](https://lordgoatius.github.io/star_trek_picker/)
 
 
 <br>
