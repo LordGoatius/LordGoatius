@@ -50,6 +50,9 @@ I am interested in:
         - Custom Arm-inspired RISC assembly instruction set assembler (datasheet in progress)
         - TODO: 3C (C, for ternary word sizes) compiler targeting jt1701 assembly
         - TODO: Simple operating system written in 3C and jt1701 assembly
+- [4D Rotating Hypercube](https://github.com/LordGoatius/cubers)
+    - 3D Terminal Renderer, which can display and rotate any 3D object comprised of straight lines
+    - 4D Rendering capabilities, the 4D object is projected into 3D using weak perspective projection, just like 3D is projected onto the 2D screen
 - [Compiler](https://github.com/LordGoatius/jim_compiler)
     - This was an attempt to understand the process of code going from a bunch of text, to an actual executable
     - While the actual assembly generated is not great, it tokenizes, parses into an AST, and can interpret any code that fits the specification
