@@ -49,7 +49,7 @@ I am interested in:
         - Access to a 27 (3^3) register page
         - 3^27 Trytes (9 trits) identity mapped memory
         - Custom Arm-inspired RISC assembly instruction set assembler (datasheet in progress)
-        - TODO: 3C (C, for ternary word sizes) compiler targeting jt1701 assembly
+        - TODO: C3 (C, for ternary word sizes) compiler targeting jt1701 assembly. (Assembler will be called PO, for _____ Object)
         - TODO: Simple operating system written in 3C and jt1701 assembly
 - [4D Rotating Hypercube](https://github.com/LordGoatius/cubers)
     - 3D Terminal Renderer, which can display and rotate any 3D object comprised of straight lines
