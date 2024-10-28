@@ -2,9 +2,10 @@
 Hi! I'm a CS and Math student currently studying at Willamette University. \
 I am interested in many things, including:
 - Open-Source Software
+- Cryptography
 - Operating Systems
-- Bots (that play games)
 - Compilers, Interpreters, and Language Design
+- Ternary Virtual Machines
 - Formal Methods
 
 # Skills
