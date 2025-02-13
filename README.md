@@ -33,41 +33,41 @@ I am proficient in:
 
 I am interested in:
 <div>
-    <img src="https://github.com/devicons/devicon/blob/master/icons/svelte/svelte-original.svg" title="svelte" **alt="svelte" width="40" height="40"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Neovim-mark.svg/492px-Neovim-mark.svg.png"  title="Neovim" alt="Neovim" width="40" height="40"/>&nbsp;
     <img src="https://github.com/devicons/devicon/blob/master/icons/haskell/haskell-original.svg" title="haskell" **alt="haskell" width="40" height="40"/>
     <img src="https://github.com/devicons/devicon/blob/master/icons/julia/julia-original.svg" title="julia" **alt="julia" width="40" height="40"/>
-    <img src="https://github.com/devicons/devicon/blob/master/icons/kotlin/kotlin-original.svg" title="kotlin" **alt="kotlin" width="40" height="40"/>
-    <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/scala/scala-original.svg" title="scala" **alt="scala" width="40" height="40"/>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/llvm/llvm-original.svg" title="llvm" **alt="llvm" width="40" height="40"/>
 <div/>
 
 # My Favorite Projects
 
 - [Ternary Virtual Machine (jt1701)](https://github.com/LordGoatius/JIMNIAC)
-    - A virtual machine which operates on a virtual machine code made up of ternary Trits, utilizing balanced ternary as the intrinsic system of ternary.
-    - Main branch contains a Harvard architecture stack-based simple virtual machine (a proof of concept), and a simple 2-pass assembler.
-    - v2 branch contains work on a von Neumann architecture virtual machine, and:
+    - v1
+        - A virtual machine which operates on a virtual machine code made up of ternary Trits, utilizing balanced ternary as the intrinsic system of ternary.
+        - Old version contains a Harvard architecture stack-based simple virtual machine (a proof of concept), and a simple 2-pass assembler.
+    - v2 (main branch) contains work on a von Neumann architecture virtual machine, and:
         - Access to a 27 (3^3) register page
         - 3^27 Trytes (9 trits) identity mapped memory
         - Custom Arm-inspired RISC assembly instruction set assembler (datasheet in progress)
-        - TODO: C3 (C, for ternary word sizes) compiler targeting jt1701 assembly. (Assembler will be called PO, for _____ Object)
+        - TODO: C3 (C, for ternary word sizes) compiler targeting jt1701 assembly. (Assembler will be called PO, for ??? Object)
         - TODO: Simple operating system written in 3C and jt1701 assembly
 - [4D Rotating Hypercube](https://github.com/LordGoatius/cubers)
     - 3D Terminal Renderer, which can display and rotate any 3D object comprised of straight lines
     - 4D Rendering capabilities, the 4D object is projected into 3D using weak perspective projection, just like 3D is projected onto the 2D screen
-- [Compiler](https://github.com/LordGoatius/jim_compiler)
-    - This was an attempt to understand the process of code going from a bunch of text, to an actual executable
-    - While the actual assembly generated is not great, it tokenizes, parses into an AST, and can interpret any code that fits the specification
-    - Genuinely one of the hardest things I've attempted to make. The next attempt will be much better, because I *will* get it right
+- [Crust](https://github.com/LordGoatius/crust)
+    - Compiler for a C-like language with Rust style Algebraic Type System
+    - Utilized inkwell (Rust llvm bindings)
 - [LaTeX Interpreter](https://github.com/LordGoatius/jimtex)
     - A turing-complete programming language with syntax inspired by LaTeX.
     - A kind of sequel to my compiler, this is a fully interpreted language, intended to be embedded into the JimTeX IDE.
     - *Nearly* fully functional (functions can be passed as functions to functions, but not returned, mutability is handled with reassignment)
     - Examples are in the jimtex_interpreter library as tests, run with `$ cargo test -- --nocapture` to view console output.
 - [Encryption](https://github.com/LordGoatius/jimcrypt)
-    - Contains 2 parts:
+    - Contains 3 parts:
         - src, which contains a custom polynomial xor based masking algorithm
         - primes_lib/src, which contains an implementation of the RSA algorithm in Rust
+        - LWE implementation (post-quantum Cryptography) w/ custom Linear Algebra Library written specifically for constant-sized matrices
 - [Turing Machine](https://github.com/LordGoatius/turing_machine)
     - An implementation of a turing machine in Rust
     - Allows for saving states of the tape, as well as programatically constructing them
