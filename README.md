@@ -51,11 +51,12 @@ I am interested in:
         - A virtual machine which operates on a virtual machine code made up of ternary Trits, utilizing balanced ternary as the intrinsic system of ternary.
         - Old version contains a Harvard architecture stack-based simple virtual machine (a proof of concept), and a simple 2-pass assembler.
     - v2 (main branch) contains work on a von Neumann architecture virtual machine, and:
-        - Access to a 27 (3^3) register page
-        - 3^27 Trytes (9 trits) identity mapped memory
+        - Access to 27 (3^3) ternary registers
+        - 3^27 Trits (3 Trytes) identity mapped memory
         - Custom Arm-inspired RISC assembly instruction set assembler (datasheet in progress)
         - TODO: C3 (C, for ternary word sizes) compiler targeting jt1701 assembly. (Assembler will be called PO, for ??? Object)
         - TODO: Simple operating system written in 3C and jt1701 assembly
+    - Note: I am pretty sure this is currently the most powerful ternary computer in existence (or ever has), even implemented purely in software.
 - [4D Rotating Hypercube](https://github.com/LordGoatius/cubers)
     - 3D Terminal Renderer, which can display and rotate any 3D object comprised of straight lines
     - 4D Rendering capabilities, the 4D object is projected into 3D using weak perspective projection, just like 3D is projected onto the 2D screen
