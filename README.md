@@ -56,7 +56,7 @@ I am interested in:
         - Custom Arm-inspired RISC assembly instruction set assembler (datasheet in progress)
         - TODO: C3 (C, for ternary word sizes) compiler targeting jt1701 assembly. (Assembler will be called PO, for ??? Object)
         - TODO: Simple operating system written in 3C and jt1701 assembly
-    - Note: I am pretty sure this is currently the most powerful ternary computer in existence (or ever has), even implemented purely in software.
+    - Note: I am pretty sure this is currently the most powerful ternary computer in existence (or to ever exist), even implemented purely in software.
 - [4D Rotating Hypercube](https://github.com/LordGoatius/cubers)
     - 3D Terminal Renderer, which can display and rotate any 3D object comprised of straight lines
     - 4D Rendering capabilities, the 4D object is projected into 3D using weak perspective projection, just like 3D is projected onto the 2D screen
