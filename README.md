@@ -85,4 +85,4 @@ I am interested in:
 
 <br>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LordGoatius&layout=compact&theme=vision-friendly-dark&hide=javascript,html,c++,lua&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LordGoatius&layout=compact&theme=vision-friendly-dark&hide=javascript,html,c++,lua,makefile&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
