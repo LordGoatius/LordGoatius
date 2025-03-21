@@ -86,4 +86,4 @@ I am interested in:
 <div/>
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LordGoatius&layout=compact&theme=vision-friendly-dark&hide=javascript,html,c%2B%2B,lua,makefile&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LordGoatius&layout=compact&theme=vision-friendly-dark&hide=javascript,html,lua,makefile&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
