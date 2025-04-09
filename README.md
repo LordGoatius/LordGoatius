@@ -21,6 +21,10 @@ I am interested in many things, including:
         - TODO: C3 (C, for ternary word sizes) compiler targeting jt1701 assembly. (Assembler will be called PO, for ??? Object)
         - TODO: Simple operating system written in 3C and jt1701 assembly
     - Note: I am pretty sure this is currently the most powerful ternary computer in existence (or to ever exist), even implemented purely in software.
+- [Ternary Huffman Compression](https://github.com/LordGoatius/truffmantrees)
+    - Implemented a ternary huffman tree.
+    - On a ternary system, naive huffman compression is more efficient than binary. 
+    - This would not be true for simulated ternary systems, but would be true for a true ternary system
 - [4D Rotating Hypercube](https://github.com/LordGoatius/cubers)
     - 3D Terminal Renderer, which can display and rotate any 3D object comprised of straight lines
     - 4D Rendering capabilities, the 4D object is projected into 3D using weak perspective projection, just like 3D is projected onto the 2D screen
