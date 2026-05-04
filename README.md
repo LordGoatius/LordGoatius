@@ -18,14 +18,13 @@ I am interested in many things, including:
         - Access to 27 (3^3) ternary registers
         - 3^27 Trits (3 Trytes) identity mapped memory
         - Custom Arm-inspired RISC assembly instruction set assembler (datasheet in progress)
-    - v3
-        - Full Ternary System with:
-            - Interrupts
-            - Vector Graphics
-            - 3^27 trytes of memory
-            - Same capability as modern computers.
-            - Load/Store Architecture
-    -v4 [Link](https://github.com/LordGoatius/ternary_future)
+    - v3 Full Ternary System with:
+        - Interrupts
+        - Vector Graphics
+        - 3^27 trytes of memory
+        - Same capability as modern computers.
+        - Load/Store Architecture 
+    - v4 [Link](https://github.com/LordGoatius/ternary_future)
         - Coming Soon. With momentum. Expected to outdo the previous ones by a lot.
         - Much improved, `no_std` and `const` compatible balanced ternary arithmetic.
         - Will come with an assembler, compiler, and linker at some point.
